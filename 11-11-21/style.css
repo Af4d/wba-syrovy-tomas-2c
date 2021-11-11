@@ -7,3 +7,23 @@ p.center {
   {
     color: green;
   }
+
+  h1, h2 
+  {
+    text-align: right;
+    color: blue;
+  }
+
+  div:hover  p
+  {
+    display: block;
+  }
+
+  p{
+      display: none;
+  }
+
+  h1::before {
+    content: url(smiley.gif);
+  }
+  
